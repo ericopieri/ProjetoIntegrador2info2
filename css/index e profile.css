@@ -1,0 +1,101 @@
+#estrutura {
+    transition: 0.5s;
+    overflow-x: hidden;
+}
+#sidebar {
+    min-height: 100vh;
+    margin-left: 0;
+    width: 15rem;
+}
+#sidebar header{
+    color: white;
+    background-color: #B07DFB;
+    padding: 30px;
+    text-align: center;
+    font-weight: 800;
+    font-style: italic;
+    font-size: 1.2em;
+}
+#page-content {
+    width: 100%;
+}
+#header-content {
+    background: linear-gradient(180deg, #8844ee, #B07DFB);
+    padding: 20px;
+}
+#toggle-sidebar {
+    display: inline-block;
+    font-size: 0.8em;
+    padding: 5px 15px;
+    background: white;
+    border: 2px solid black;
+}
+#toggle-sidebar:hover {
+    color: white;
+    background: black;
+}
+#estrutura.toggled {
+    margin-left: -15rem;
+}
+#hamburguer {
+    background: white;
+    color: black;
+    border: 2px solid black;
+}
+.nav-link {
+    padding: 10px;
+    background: rgba(0, 0, 0, .4);
+    color: white;
+    margin-left: 15px;
+    border-radius: 5px;
+    transition: .1s;
+}
+.nav-link:hover {
+    color: white;
+    background: rgba(0, 0, 0, .7)
+}
+.container-fluid {
+    padding: 50px;
+}
+#titulo {
+    margin-bottom: 40px;
+    font-size: 4em;
+    font-weight: 800;
+}
+.input-adicionar {
+    display: flex;
+    gap: 5px;
+}
+.input-adicionar input {
+    display: inline-block;
+    width: 500px;
+    padding: 0 20px;
+}
+.botao {
+    padding: 10px 15px;
+    border-radius: 5px;
+    background: #B07DFB;
+    color: white;
+    cursor: pointer;
+    border: 2px solid black;
+}
+.botao:hover {
+    background: black;
+    color: white;
+}
+#red {
+    background: red;
+}
+#red:hover {
+    background: darkred;
+}
+.container-fluid ul {
+    margin-top: 70px;
+}
+#itemList li {
+    width: 1000px;
+}
+.card {
+    width: 1200px;
+    margin: 0 auto;
+}

@@ -1,0 +1,90 @@
+
+
+body {
+    background: linear-gradient(180deg, #8844ee, #B07DFB);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* estrutura-mãe centralizada */
+
+.centralizada {
+    background: white;
+    padding: 50px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 1300px;
+    border-radius: 10px;
+}
+
+/* est-1 */
+
+.est-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo-firebase {
+    width: 50px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+/* est-2 */
+
+.est-2 {
+    display: flex;
+    flex-flow: column nowrap;
+}
+.est-2 h2 {
+    color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    background: rgba(0, 0, 0, .6);
+    align-self: center;
+    font-size: 4em;
+}
+
+.gp-form {
+    margin-left: 10px;
+    display: flex;
+    gap: 5px;
+    flex-flow: column;
+    margin-top: 40px;
+}
+
+.gp-form  label {
+    font-size: 1.3em;
+}
+
+.gp-form input {
+    font-size: 1.2em;
+    font-style: italic;
+    width: 300px;
+    padding: 5px 20px;
+}
+
+/* button */
+
+.est-2 button {
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 25px;
+    background: transparent;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.09em;
+}
+
+.est-2 button:hover {
+    background: rgba(0, 0, 0, .6);
+    color: white;
+}

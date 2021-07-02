@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://unpkg.com/sweetalert2@9/dist/sweetalert2.all.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+            integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/login.css">
+        <title>Login</title>
+    </head>
+
+    <body>
+        <div class="centralizada">
+            <div class="est-1">
+                <img id="logo-firebase" src="imagens/small-firebase.png" alt="Logo Firebase">
+                <img id="logo-loja" src="imagens/logo-loja.png" alt="Logo Tênis">
+            </div>
+            <div class="est-2">
+                <h2>Autenticação</h2>
+                <div id="gp-form1" class="gp-form">
+                    <label for="email">E-mail</label>
+                    <input name="email" id="email" type="email">
+                </div>
+                <div id="gp-form2" class="gp-form">
+                    <label for="password">Senha</label>
+                    <input name="password" id="password" type="password">
+                </div>
+                <button onclick="login()">Login</button>
+            </div>
+        </div>
+        <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
+        <script src="js/init.js"></script>
+        <script src="js/auth.js"></script>
+    </body>
+
+</html>
